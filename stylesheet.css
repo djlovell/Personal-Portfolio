@@ -19,6 +19,10 @@
     color: plum;
 }
 
+#resume section{
+  transition: all .5s ease;
+}
+
 #resume a:hover{
     font-style: bold;
 }
@@ -164,6 +168,15 @@
 
 #footer{
     background-color: darkslateblue;
+}
+
+#biography a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#biography a:visited{
+    color: darkgray;
 }
 
 .redirect-resume{
